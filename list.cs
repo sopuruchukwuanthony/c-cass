@@ -6,5 +6,5 @@ List<string> fruits = new List<string>{
 Console.WriteLine("Fruits:");
 foreach (string fruit in fruits)
 {
-    Console.WriteLine(fruit);
+    Console.WriteLine(fruit[0]);
 }
