@@ -32,15 +32,15 @@ the way numbers are displayed as strings. You can use format specifiers
 //percantage formatting
 // double score = 0.85;
 // Console.WriteLine(score.ToString("p"));
-double num = 1234567.89;
-Console.WriteLine(num.ToString("c" , new CultureInfo("en-GB")));
-Console.WriteLine(num.ToString("D5"));
-Console.WriteLine(num.ToString("x"));
+// double num = 1234567.89;
+// Console.WriteLine(num.ToString("c" , new CultureInfo("en-GB")));
+// Console.WriteLine(num.ToString("D5"));
+// Console.WriteLine(num.ToString("x"));
 
-Console.WriteLine();
+// Console.WriteLine();
 
-Console.WriteLine("custom formatting");
-Console.WriteLine(num.ToString("0.00"));
-Console.WriteLine(num.ToString("#.##0.00"));
-Console.WriteLine(num.ToString("00000"));
-Console.WriteLine(num.ToString("0.00 'NG'"));
+// Console.WriteLine("custom formatting");
+// Console.WriteLine(num.ToString("0.00"));
+// Console.WriteLine(num.ToString("#.##0.00"));
+// Console.WriteLine(num.ToString("00000"));
+// Console.WriteLine(num.ToString("0.00 'NG'"));
