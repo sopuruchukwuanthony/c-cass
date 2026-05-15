@@ -4,7 +4,18 @@ List<string> fruits = new List<string>{
     "Cherry"
 };
 Console.WriteLine("Fruits:");
-foreach (string fruit in fruits)
-{
-    Console.WriteLine(fruit[0]);
-}
+//     foreach (string i in fruits)
+//     {
+//         Console.WriteLine(i);
+// }
+fruits.Add("mango");
+fruits.Add("Orange");
+fruits.Add("pea");
+fruits.Remove("Cherry");
+Console.WriteLine(fruits[0]);
+
+foreach (string i in fruits)
+    {
+     Console.WriteLine(i);
+   }
+

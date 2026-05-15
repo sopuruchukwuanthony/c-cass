@@ -29,4 +29,10 @@
 //     }
 // }
 string[] names = { "Alice", "Bob", "Charlie", "David", "Eve" };
-Console.WriteLine(string.Join(", ", names));
+
+Console.WriteLine(names[1]);
+
+foreach(string name in names)
+{
+    Console.WriteLine(name);
+}
